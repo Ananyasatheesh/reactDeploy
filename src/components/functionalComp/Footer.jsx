@@ -1,6 +1,17 @@
+import "../../css/Footer.css"
+
 const Footer = () => {
     return(
-        <h1>Footer page</h1>
+        <div className="foot">
+        <div className="block">
+        <h3>Contact Us:</h3>
+        <div className="cont">
+            <p>E-Mail : curepure@gmail.com</p>
+            <p>Website : www.curepure.com</p>
+            <p>Contact : 9876543210</p>
+            </div>
+        </div>
+        </div>
     )
 }   
 

@@ -6,6 +6,7 @@ import Home from './components/functionalComp/Home';
 import Contact from './components/functionalComp/Contact';
 import Staff from './components/functionalComp/Staff';
 import Footer from './components/functionalComp/Footer';
+import Landing from './components/functionalComp/Landing';
 
 
 
@@ -19,6 +20,7 @@ function App() {
     <div>
       <BrowserRouter>
       <NavBar />
+      <Landing />
       <Routes>
         <Route path="/hom" element={<Home/>}></Route>
         <Route path="/abt" element={<About/>}></Route>
@@ -26,8 +28,8 @@ function App() {
         <Route path="/cont" element={<Contact/>}></Route>
       </Routes>
       </BrowserRouter>
+      
       <Footer />
-
     </div>
 
 

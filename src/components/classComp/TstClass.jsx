@@ -1,11 +1,11 @@
 import React from "react";
-import Login from "./Login";
+import TestComp from "../functionalComp/TestComp";
 
 class TstClass extends React.Component {
   render() {
     return(
     <div>
-        <Login />
+       <TestComp />
       <h1>This is Test Class comp React App</h1>
     </div>
   )

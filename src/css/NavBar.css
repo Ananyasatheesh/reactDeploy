@@ -2,7 +2,6 @@
 ol{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
     font-style: italic;
     font-size: 20px;
     background-color: aliceblue;
@@ -16,9 +15,10 @@ ol{
 .link{
     text-decoration: none;
     color: black;
+    margin-right: 20px;
 }
 li{
     text-decoration: none;
-    padding: 15px;
+    padding: 20px;
     list-style-type: none;
 }

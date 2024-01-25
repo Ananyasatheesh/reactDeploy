@@ -1,0 +1,18 @@
+/* justify-content can be used to give space*/
+ol{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-style: italic;
+    font-size: 20px;
+    background-color: aliceblue;
+    color: #000000;
+    width: 1355px;
+    margin-top: 0px;
+    
+}
+li{
+    
+    padding: 15px;
+    list-style-type: none;
+}

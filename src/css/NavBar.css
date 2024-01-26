@@ -6,10 +6,11 @@ ol{
     font-size: 20px;
     background-color: aliceblue;
     color: #000000;
-    width: 1490px;
+    /* width: 1490px; */
     margin: 0;
     top: 0;
     position: fixed;
+    width: 100%;
 }
 
 .link{
@@ -21,4 +22,5 @@ li{
     text-decoration: none;
     padding: 20px;
     list-style-type: none;
+    
 }

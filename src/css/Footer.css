@@ -1,18 +1,18 @@
-.foot{
+.contain{
   position: fixed;
   bottom: 0;
-  width: 100%;
   background-color: aliceblue;
   color: black;
-  font-style: italic;
-  margin: 0;
+  width: 100%;
+  display: flex;
+  
 }
-.block{
-    display: flex;
-    margin-left: 15px;
-
+.left{
+  margin-left: 10px;
 }
-.cont{
-    margin-left: 1000px;
-
+.right{
+  margin-left: 1000px;
+}
+button{
+  
 }

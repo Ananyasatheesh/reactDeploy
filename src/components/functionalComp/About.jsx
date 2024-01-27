@@ -28,7 +28,7 @@ const [tabName, setTabname] = useState("posts")
 
     return(
         <>
-        <h1>{tabName}</h1>
+        <h1 style={{marginTop:"100px"}}>{tabName}</h1>
         <button onClick={updateTab}>Click me if u get cold</button>
         <button onClick={updateTab1}>Click me if u get fever</button>
         <button onClick={updateTab2}>Click me if u get epilepsy</button>

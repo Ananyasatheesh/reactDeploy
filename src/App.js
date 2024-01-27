@@ -9,6 +9,8 @@ import Footer from './components/functionalComp/Footer';
 import Landing from './components/functionalComp/Landing';
 import Login1 from './components/functionalComp/Login1';
 import { useEffect } from 'react';
+import Dummylogin from './components/functionalComp/Dummylogin';
+import Signup from './components/functionalComp/Signup';
 
 
 
@@ -27,14 +29,16 @@ function App() {
        
       <BrowserRouter>
       <NavBar />
-      <Landing />
 
       <Routes>
+        <Route path='/' element={<Landing/>}></Route>
         <Route path="/hom" element={<Home/>}></Route>
         <Route path="/abt" element={<About/>}></Route>
         <Route path="/stf" element={<Staff/>}></Route>
         <Route path="/cont" element={<Contact/>}></Route>
-        <Route path="/log" element={<Login1/>}></Route>
+        <Route path="/sign" element={<Signup/>}></Route>
+        <Route path='/log' element={<Login1/>}></Route>
+        <Route path="/dlog" element={<Dummylogin/>}></Route>
 
       </Routes>
       </BrowserRouter>

@@ -10,17 +10,16 @@ const Footer = () => {
     
 
     return(
-        <div className="contain">
+        <div className="container">
             <div className="left">
                 <h3>Contact Us:</h3>
                 <button onDoubleClick={updRew}>Click me to earn a reward</button>
                 <h3>{rew} </h3>
-                <h5>&copy; Ananya</h5>
             </div>
             <div className="right">
             <p>E-Mail : curepure@gmail.com</p>
             <p>Website : www.curepure.com</p>
-            <p>Contact : 9876543210</p>
+            <p>Contact : 9876543210 &copy; Ananya</p>
             </div>
         </div>
 

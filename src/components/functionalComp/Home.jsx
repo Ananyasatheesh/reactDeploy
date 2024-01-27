@@ -1,6 +1,9 @@
 const Home = () => {
     return(
-        <h1>Home page</h1>
+        <div>
+        <h1  style={{marginTop:"100px"}}>Home page</h1>
+        </div>
+
     )
 }   
 

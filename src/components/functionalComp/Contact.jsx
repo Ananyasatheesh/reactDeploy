@@ -9,8 +9,8 @@ const Contact = () => {
     }
 
     return(
-        <div>
-        <h1>This is {info}</h1>
+        <div >
+        <h1  style={{marginTop:"100px"}}>This is {info}</h1>
         <button onDoubleClick={updateInfo}>Update Contact</button>
         </div>
     )

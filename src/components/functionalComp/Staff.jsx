@@ -1,6 +1,6 @@
 const Staff = () => {
     return(
-        <h1>Staff page</h1>
+        <h1 style={{marginTop:"100px"}}>Staff page</h1>
     )
 }   
 

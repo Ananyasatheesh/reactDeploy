@@ -1,4 +1,4 @@
-.contain{
+.container{
   position: fixed;
   bottom: 0;
   background-color: aliceblue;
@@ -12,7 +12,4 @@
 }
 .right{
   margin-left: 1000px;
-}
-button{
-  
 }
